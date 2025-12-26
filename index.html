@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.2">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="uz"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Financial Line&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: Arial, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f4f4f4;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>h1 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #333;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>form {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 0 10px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>label {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>input, select {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #ddd;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>button {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #4CAF50;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>button:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #45a049;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>table {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-collapse: collapse;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>th, td {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #ddd;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: left;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>th {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #f2f2f2;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.qizil { background-color: #ffcccc; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.sariq { background-color: #ffffcc; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.yashil { background-color: #ccffcc; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#tendensiya {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 0 10px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Financial Line - Qishloq Aholisi Moliyaviy Holati&lt;/h1&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Aholi ma'lumotlarini kiritish formasi --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;form id="aholiForm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="ism"&gt;Ism Familiya:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="text" id="ism" required&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="molMulki"&gt;Mol-mulki (umumiy qiymati, so'm):&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="number" id="molMulki" required&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="mol"&gt;Mol (soni):&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="number" id="mol" required&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="jonzotlar"&gt;Boshqa jonzotlar (soni):&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="number" id="jonzotlar" required&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="daromad"&gt;Yillik daromad (so'm):&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="number" id="daromad" required&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="uyHolati"&gt;Uy holati (yaxshi/o'rtacha/yomon):&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;select id="uyHolati" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option value="yaxshi"&gt;Yaxshi&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option value="o'rtacha"&gt;O'rtacha&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option value="yomon"&gt;Yomon&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/select&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="yerO'lchami"&gt;Yer o'lchami (gektar):&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="number" id="yerO'lchami" required&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="jamgarma"&gt;Jamg'arma puli (so'm):&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="number" id="jamgarma" required&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button type="submit"&gt;Aholi qo'shish&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/form&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Stavkalar formasi --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;form id="stavkaForm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="pastStavka"&gt;Past stavka (qizil uchun, so'm):&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="number" id="pastStavka" required&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="balandStavka"&gt;Baland stavka (yashil uchun, so'm):&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="number" id="balandStavka" required&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button type="submit"&gt;Stavkalarni belgilash&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/form&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Aholi ro'yxati jadvali --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Aholi Ro'yxati&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;table id="aholiTable"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;thead&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;th&gt;Ism Familiya&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;th&gt;Mol-mulki&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;th&gt;Mol&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;th&gt;Jonzotlar&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;th&gt;Daromad&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;th&gt;Uy Holati&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;th&gt;Yer O'lchami&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;th&gt;Jamg'arma&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;th&gt;Umumiy Qiymat&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/thead&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;tbody&gt;&lt;/tbody&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/table&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Tendensiya bo'limi --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="tendensiya"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2&gt;Oydan Oyga Tendensiya&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p id="tendensiyaMatn"&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button id="oyniSaqlash"&gt;Joriy oyni saqlash&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>let aholilar = [];</p>
+<p class="p1"><span class="Apple-converted-space">        </span>let pastStavka = 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>let balandStavka = 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>let oylar = []; // Oylik ma'lumotlar massivi</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// LocalStorage dan yuklash</p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (localStorage.getItem('aholilar')) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>aholilar = JSON.parse(localStorage.getItem('aholilar'));</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (localStorage.getItem('pastStavka')) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>pastStavka = parseInt(localStorage.getItem('pastStavka'));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('pastStavka').value = pastStavka;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (localStorage.getItem('balandStavka')) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>balandStavka = parseInt(localStorage.getItem('balandStavka'));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('balandStavka').value = balandStavka;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (localStorage.getItem('oylar')) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>oylar = JSON.parse(localStorage.getItem('oylar'));</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Jadvalni yangilash funksiyasi</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function jadvalniYangila() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const tbody = document.querySelector('#aholiTable tbody');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>tbody.innerHTML = '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>aholilar.forEach(aholi =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const umumiy = aholi.molMulki + aholi.daromad + aholi.jamgarma; // Soddalashtirilgan umumiy qiymat (mol, yer va h.k. qiymatini qo'shish mumkin)</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const tr = document.createElement('tr');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>tr.innerHTML = `</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;td&gt;${aholi.ism}&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;td&gt;${aholi.molMulki}&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;td&gt;${aholi.mol}&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;td&gt;${aholi.jonzotlar}&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;td&gt;${aholi.daromad}&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;td&gt;${aholi.uyHolati}&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;td&gt;${aholi.yerO'lchami}&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;td&gt;${aholi.jamgarma}&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;td&gt;${umumiy}&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (umumiy &lt; pastStavka) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>tr.classList.add('qizil');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>} else if (umumiy &gt; balandStavka) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>tr.classList.add('yashil');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>tr.classList.add('sariq');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>tbody.appendChild(tr);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Tendensiyani hisoblash</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function tendensiyaniYangila() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (oylar.length &lt; 2) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('tendensiyaMatn').innerText = 'Tendensiya uchun kamida 2 oy ma\'lumoti kerak.';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>return;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const oxirgiOy = oylar[oylar.length - 1];</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const oldingiOy = oylar[oylar.length - 2];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const yashilOzg = oxirgiOy.yashil - oldingiOy.yashil;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const sariqOzg = oxirgiOy.sariq - oldingiOy.sariq;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const qizilOzg = oxirgiOy.qizil - oldingiOy.qizil;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>let matn = `Yashil kategoriya: ${yashilOzg &gt; 0 ? 'ko\'tarilgan (+' + yashilOzg + ')' : 'tushgan (' + yashilOzg + ')'}\n`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>matn += `Sariq kategoriya: ${sariqOzg &gt; 0 ? 'ko\'tarilgan (+' + sariqOzg + ')' : 'tushgan (' + sariqOzg + ')'}\n`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>matn += `Qizil kategoriya: ${qizilOzg &gt; 0 ? 'ko\'tarilgan (+' + qizilOzg + ')' : 'tushgan (' + qizilOzg + ')'}`;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('tendensiyaMatn').innerText = matn;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Aholi qo'shish</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('aholiForm').addEventListener('submit', function(e) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>e.preventDefault();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const aholi = {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>ism: document.getElementById('ism').value,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>molMulki: parseInt(document.getElementById('molMulki').value),</p>
+<p class="p1"><span class="Apple-converted-space">                </span>mol: parseInt(document.getElementById('mol').value),</p>
+<p class="p1"><span class="Apple-converted-space">                </span>jonzotlar: parseInt(document.getElementById('jonzotlar').value),</p>
+<p class="p1"><span class="Apple-converted-space">                </span>daromad: parseInt(document.getElementById('daromad').value),</p>
+<p class="p1"><span class="Apple-converted-space">                </span>uyHolati: document.getElementById('uyHolati').value,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>yerO'lchami: parseFloat(document.getElementById('yerO\'lchami').value),</p>
+<p class="p1"><span class="Apple-converted-space">                </span>jamgarma: parseInt(document.getElementById('jamgarma').value)</p>
+<p class="p1"><span class="Apple-converted-space">            </span>};</p>
+<p class="p1"><span class="Apple-converted-space">            </span>aholilar.push(aholi);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>localStorage.setItem('aholilar', JSON.stringify(aholilar));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>jadvalniYangila();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>this.reset();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Stavkalar belgilash</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('stavkaForm').addEventListener('submit', function(e) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>e.preventDefault();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>pastStavka = parseInt(document.getElementById('pastStavka').value);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>balandStavka = parseInt(document.getElementById('balandStavka').value);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>localStorage.setItem('pastStavka', pastStavka);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>localStorage.setItem('balandStavka', balandStavka);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>jadvalniYangila();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Joriy oyni saqlash</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('oyniSaqlash').addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>let yashil = 0, sariq = 0, qizil = 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>aholilar.forEach(aholi =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const umumiy = aholi.molMulki + aholi.daromad + aholi.jamgarma;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (umumiy &lt; pastStavka) qizil++;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>else if (umumiy &gt; balandStavka) yashil++;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>else sariq++;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>oylar.push({ yashil, sariq, qizil });</p>
+<p class="p1"><span class="Apple-converted-space">            </span>localStorage.setItem('oylar', JSON.stringify(oylar));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>tendensiyaniYangila();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Dastlabki yuklash</p>
+<p class="p1"><span class="Apple-converted-space">        </span>jadvalniYangila();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>tendensiyaniYangila();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
